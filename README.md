@@ -28,7 +28,7 @@ Antes de começar, garanta que você tenha o seguinte ambiente configurado:
 
 1.  Clone este repositório:
     ```bash
-    git clone <url-do-seu-repositorio>
+    git clone https://github.com/AndrezzaDias/yodapp-robot.git
     cd yodapp-robot
     ```
 
