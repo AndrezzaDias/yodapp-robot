@@ -1,0 +1,44 @@
+# Arquivos de output do Robot Framework
+output.xml
+log.html
+report.html
+*.png
+*.log
+
+# Resultados do Pabot (execução paralela)
+pabot_results/
+
+# Artefatos do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Ambientes Virtuais
+.venv/
+venv/
+env/
+
+# Dependências do Node.js
+node_modules/
+
+# Arquivos de IDE e editores
+.idea/
+.vscode/
