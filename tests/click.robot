@@ -1,7 +1,6 @@
 *** Settings ***
 Resource    ../resources/base.resource
 
-Library    XML
 
 *** Test Cases ***
 Deve realizar um click simples
@@ -23,4 +22,6 @@ Deve realizar um click longo
     ${positions}    Get Element Location    ${locator}
 
     Tap With Positions    1000      ${${positions}[x], ${positions}[y]}
-    Wait Until Page Contains         Isso é um clique longo    10       
+    Wait Until Page Contains         Isso é um clique longo    10    
+
+

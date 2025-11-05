@@ -15,6 +15,10 @@ Start session
     ...                 udid=emulator-5554
     ...                 autoGrantPermissions=true   
 
+    Wait Until Page Contains        Yodapp    10
+    Wait Until Page Contains        Mobile Training    10 
+    Wait Until Page Contains        by Papito    10
+
 Get started
     Wait Until Page Contains        ${START}    10
     Click Text                      ${START}
@@ -34,5 +38,5 @@ Go to item
     Click Text                       ${item}
     Wait Until Page Contains         ${checkpoit}
 
-Close Application
+Close 
     Close Application
